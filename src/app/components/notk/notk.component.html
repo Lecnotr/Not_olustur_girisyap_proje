@@ -1,0 +1,16 @@
+<div class ="form-container">
+    <form #noteForm="ngForm" (ngSubmit)="onSubmit(noteForm.value)">
+        <label class="label"> Not Başlığı </label>
+        <div class="control">
+          <input type="text" class="input" name="noteTitle" ngModel>
+        </div>
+<br>
+      <div class="body">
+        <label class="label2">Not İçeriği </label>
+        <div class="control2">
+          <textarea class="textarea" name="noteContent" ngModel></textarea>
+        </div> 
+      </div>
+      <button type="submit" class="save-button">Kaydet</button>
+    </form>
+</div>

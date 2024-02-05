@@ -1,0 +1,35 @@
+.form-container {
+  height: 500px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.label {
+  font-size: 20px;
+  height: 50px;
+  max-width: 100px;
+}
+
+.input {
+  width: 250px;
+  padding: 14px;
+  margin: 1px;
+  box-sizing: vertical;
+  border-radius: 25px;
+}
+  
+.textarea {
+  width: 500px;
+  height: 300px;
+  max-height: 700px;
+  max-width: 1500px;
+  margin: 1px;
+  padding: 1px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 2px solid #0a0707;
+  border-radius: 5px;
+  resize: vertical;
+}
